@@ -1,7 +1,8 @@
 {
     "name": "tanveerahmedivan/codeigniter4-modules",
     "description": "CodeIgniter4 starter app with Modules added",
-    "type": "library",
+    "license": "MIT",
+    "type": "project",
     "homepage": "https://codeigniter.com",
     "support": {
         "forum": "https://forum.codeigniter.com/",
