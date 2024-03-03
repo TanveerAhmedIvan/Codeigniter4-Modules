@@ -1,4 +1,6 @@
-# CodeIgniter 4 Application Starter
+# CodeIgniter 4 Application Starter With MODULES Implemented (HMVC)
+
+This is a basic CodeIgniter 4 Application with modules implemented.
 
 ## What is CodeIgniter?
 
@@ -16,7 +18,7 @@ corresponding to the latest version of the framework.
 
 ## Installation & updates
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
+`composer create-project tanveerahmedivan/codeigniter4-modules` then `composer update` whenever
 there is a new release of the framework.
 
 When updating, check the release notes to see if there are any changes you might need to apply
@@ -38,15 +40,9 @@ not to the project root. A better practice would be to configure a virtual host 
 framework are exposed.
 
 **Please** read the user guide for a better explanation of how CI4 works!
+## Remove `public/` and index.php from url
+Copy `.htaccess.example` to `.htaccess` and enjoy.
 
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
 
 ## Server Requirements
 
