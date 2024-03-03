@@ -1,8 +1,7 @@
 {
-    "name": "codeigniter4/appstarter",
-    "description": "CodeIgniter4 starter app",
-    "license": "MIT",
-    "type": "project",
+    "name": "tanveerahmedivan/codeigniter4-modules",
+    "description": "CodeIgniter4 starter app with Modules added",
+    "type": "library",
     "homepage": "https://codeigniter.com",
     "support": {
         "forum": "https://forum.codeigniter.com/",
@@ -35,5 +34,11 @@
     },
     "scripts": {
         "test": "phpunit"
-    }
+    },
+    "authors": [
+        {
+          "name": "Tanveer Ahmed Ivan",
+          "email": "tanveerahmedivan@gmail.com"
+        }
+      ]
 }

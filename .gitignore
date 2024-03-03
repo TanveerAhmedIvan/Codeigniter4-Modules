@@ -126,5 +126,4 @@ nb-configuration.xml
 /phpunit*.xml
 /.phpunit.*.cache
 composer.lock
-env
 .htaccess
