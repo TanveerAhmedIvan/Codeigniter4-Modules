@@ -1,6 +1,7 @@
 # CodeIgniter 4 Application Starter With MODULES Implemented (HMVC)
 
 This is a basic CodeIgniter 4 Application with modules implemented.
+HMVC Routing is implemented.
 
 ## What is CodeIgniter?
 
