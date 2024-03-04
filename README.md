@@ -19,7 +19,7 @@ corresponding to the latest version of the framework.
 
 ## Installation & updates
 
-`composer create-project tanveerahmedivan/codeigniter4-modules` then `composer update` whenever
+`composer create-project TanveerAhmedIvan/Codeigniter4-Modules` then `composer update` whenever
 there is a new release of the framework.
 
 When updating, check the release notes to see if there are any changes you might need to apply
