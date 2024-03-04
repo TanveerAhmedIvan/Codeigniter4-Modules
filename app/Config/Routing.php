@@ -109,4 +109,24 @@ class Routing extends BaseRouting
      * @var array [ uri_segment => namespace ]
      */
     public array $moduleRoutes = [];
+    
+    function __construct() {
+        $modules_path = ROOTPATH . 'Modules/';
+        $modules = scandir($modules_path);
+
+        foreach ($modules as $module) {
+            if ($module === '.' || $module === '..') {
+                continue;
+            }
+
+            if (is_dir($modules_path) . '/' . $module) {
+                $routes_path = $modules_path . $module . '/Config/Routes.php';
+                if (file_exists($routes_path)) {
+                    $this->routeFiles[] = $routes_path;
+                } else {
+                    continue;
+                }
+            }
+        }
+    }
 }
